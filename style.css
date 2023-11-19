@@ -81,12 +81,18 @@ button#prev-btn{
 /* Controller Buttons */
 button {
     border: none;
+    position: absolute;
     background-color: transparent;
     cursor: pointer;
     margin: 10px;
     transition: transform 0.5s;
 }
-
+#prev-btn{
+    left: 0px;
+}
+#next-btn{
+    right: 0px;
+}
 button:focus {
     outline: none;
 }

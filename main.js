@@ -23,7 +23,14 @@ const paper16 = document.querySelector("#p16");
 // Event Listener
 prevBtn.addEventListener("click", goPrevPage);
 nextBtn.addEventListener("click", goNextPage);
-
+var lebarPerangkat = window.innerWidth;
+var Phone = document.getElementById("Phone")
+if(lebarPerangkat < 572){
+    Phone.style.display = "flex";
+}
+else{
+    Phone.style.display = "none"
+}
 // Business Logic
 let currentLocation = 1;
 let numOfPapers = 16;
@@ -31,8 +38,6 @@ let maxLocation = numOfPapers + 1;
 
 function openBook() {
     book.style.transform = "translateX(50%)";
-    prevBtn.style.transform = "translateX(-440px)";
-    nextBtn.style.transform = "translateX(440px)";
     prevBtn.style.display = "none";
 }
 
@@ -44,7 +49,7 @@ function closeBook(isAtBeginning) {
     }
     
     prevBtn.style.transform = "translateX(0px)";
-    nextBtn.style.transform = "translateX(0px)"
+    nextBtn.style.transform = "translateX(0px)";
 }
 
 function goNextPage() {
@@ -208,13 +213,4 @@ function goPrevPage() {
 
         currentLocation--;
     }
-}
-
-var lebarPerangkat = window.innerWidth;
-var Phone = document.getElementById("Phone")
-if(lebarPerangkat < 572){
-    Phone.style.display = "flex";
-}
-else{
-    Phone.style.display = "none"
 }

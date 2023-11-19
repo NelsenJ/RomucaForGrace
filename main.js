@@ -176,3 +176,12 @@ function goPrevPage() {
         currentLocation--;
     }
 }
+
+var lebarPerangkat = window.innerWidth;
+var Phone = document.getElementById("Phone")
+if(lebarPerangkat < 572){
+    Phone.style.display = "flex";
+}
+else{
+    Phone.style.display = "none"
+}

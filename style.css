@@ -102,51 +102,67 @@ i {
 
 /* Paper stack order */
 #p1 {
-    z-index: 3;
-}
-
-#p2 {
     z-index: 2;
 }
 
-#p3 {
+#p2 {
     z-index: 1;
 }
 
-#p4 {
+#p3 {
     z-index: 0;
 }
 
-#p5 {
+#p4 {
     z-index: -1;
 }
 
-#p6 {
+#p5 {
     z-index: -2;
 }
 
-#p7 {
+#p6 {
     z-index: -3;
 }
 
-#p8 {
+#p7 {
     z-index: -4;
 }
 
-#p9 {
+#p8 {
     z-index: -5;
 }
 
-#p10 {
+#p9 {
     z-index: -6;
 }
 
-#p11 {
+#p10 {
     z-index: -7;
 }
 
-#p12 {
+#p11 {
     z-index: -8;
+}
+
+#p12 {
+    z-index: -9;
+}
+
+#p13{
+    z-index: -10;
+}
+
+#p14 {
+    z-index: -11;
+}
+
+#p15 {
+    z-index: -12;
+}
+
+#p16{
+    z-index: -13;
 }
 
 
@@ -210,6 +226,24 @@ div#b12{
     background-image: url(blue.png);
 }
 
+div#b13{
+    background-image: url(blue.png);
+}
+
+div#b14{
+    background-image: url(blue.png);
+}
+
+div#b15{
+    background-image: url(blue.png);
+}
+
+div#b16{
+    background-image: url(lastpage.png);
+    background-size: 135% 120%;
+    background-position: center;
+}
+
 div#f3{
     background-image: url(Page2.png);
     background-size: 135% 120%;
@@ -266,6 +300,30 @@ div#f11{
 
 div#f12{
     background-image: url(Page11.png);
+    background-size: 135% 120%;
+    background-position: center;
+}
+
+div#f13{
+    background-image: url(Page12.png);
+    background-size: 135% 120%;
+    background-position: center;
+}
+
+div#f14{
+    background-image: url(blue.png);
+    background-size: 135% 120%;
+    background-position: center;
+}
+
+div#f15{
+    background-image: url(Page14.png);
+    background-size: 135% 120%;
+    background-position: center;
+}
+
+div#f16{
+    background-image: url(blue.png);
     background-size: 135% 120%;
     background-position: center;
 }

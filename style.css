@@ -370,6 +370,7 @@ div.information div.rotate{
 
 @media screen and (max-width: 1000px) {
     i{
-        font-size: 40px;
+        font-size: 30px;
+        z-index: 100;
     }
 }
